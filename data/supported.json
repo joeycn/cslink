@@ -1,0 +1,26 @@
+[
+{
+  "site": "sdstate.edu",
+  "proxy": "excelsior.sdstate.edu", 
+  "name": "South Dakota State University",
+  "short": "SDSU"
+ },
+ {
+  "site": "uta.edu",
+  "proxy": "ezproxy.uta.edu", 
+  "name": "University of Texas at Arlington",
+  "short": "UTA"
+ },
+ {
+  "site": "utdallas.edu",
+  "proxy": "libproxy.utdallas.edu", 
+  "name": "University of Texas at Dallas",
+  "short": "UTD"
+ },
+ {
+  "site": "utexas.edu",
+  "proxy": "ezproxy.lib.utexas.edu", 
+  "name": "University of Texas at Austin",
+  "short": "UT"
+ }
+]
