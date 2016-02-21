@@ -30,7 +30,7 @@ function save_options() {
 }
 
 function get_proxy(callback) {
-	var list_url = "https://idir.uta.edu/~zhang/cslink/supported.json";
+	var list_url = "https://raw.githubusercontent.com/joeycn/cslink/master/data/supported.json";
 	chrome.storage.sync.get({access: 0}, function(item) {
 		if(new Date().getTime() - item.access < 86400 * 1000) {
 			chrome.storage.sync.get({proxies: []}, function(item) {
