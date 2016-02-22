@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='css/bootstrap.css' rel='stylesheet' />
+    <link href='css/card.css' rel='stylesheet' />
+    <title>Collegiate Scholar Link - A browser extension makes better use of Google Scholar for scholars.</title>
+</head>
+<body>
+<div class="container">
+    <div class="card-container">
+        <div class="card">
+            <div class="cover">
+                <img src="images/header.jpg"/>
+            </div>
+            <div class="user">
+                <img class="img-circle" src="images/ico-256.png"/>
+            </div>
+            <div class="content">
+                <div class="main">
+                    <h2 class="title">Collegiate Scholar Link</h2>
+                    <p class="subtitle">A browser extension makes better use of Google Scholar for scholars.</p>
+                    <p class="description">
+                    Don't know how to download a scientific paper from a publisher off campus? 
+                    Collegiate Scholar Link provides additional links for Google Scholar search results. 
+                    Through those links, you can access the articles anywhere via your university's proxy service. 
+                    If you're tired of VPN and poor searching functionality of your university's library portal, 
+                    Collegiate Scholar Link may ease your life a little.
+                    </p>
+                    <div class="fb-like" data-href="https://www.facebook.com/CollegiateScholarLink/" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+                    <div id="paypal">
+                        <div class="text-center">
+                            <button id="donation-button" class="btn btn-lg btn-success">Click here to buy me a beer</button>
+                        </div>
+
+                        <div class="hidden">
+                            <form id="paypal-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                            ">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    CSLink on 
+                    <a href="https://chrome.google.com/webstore/detail/collegiate-scholar-link/lmammanhmfopafiiopefcedjiffdogdf">
+                        <img src="images/chrome_webstore_ongray_32.png" / > Chrome web store
+                    </a>
+                    <a href="https://www.facebook.com/CollegiateScholarLink">
+                        <img src="images/facebook-icon.png" / > Facebook
+                    </a>
+                    <a href="https://github.com/joeycn/cslink">
+                        <img src="images/github-icon.png" / > Github
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=114920878583319";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-73742393-1', 'auto');
+    ga('send', 'pageview');
+
+    document.getElementById('donation-button').onclick = function() {
+       document.getElementById('paypal-form').submit();
+    };
+</script>
+</body>
+</html>
