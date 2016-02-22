@@ -2,7 +2,7 @@
   "name": "Collegiate Scholar Link",
   "short_name": "CSLink",
   "author": "joey.zh.cn@gmail.com",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This extension makes better use of Google Scholar for scholars.",
   "icons": { 
 	"16": "icons/ico-16.png",

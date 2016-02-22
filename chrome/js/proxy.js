@@ -50,7 +50,7 @@ var findAddress = function() {
 		var link_text = 'Access via ' + server_name;
 		if(!url) return;
 		
-		var link_a = $('<a class="cslink" alter="' + link_text + '">')
+		var link_a = $('<a class="cslink" alt="' + link_text + '">')
 						.attr('href', url)
 						.css('color', '#f58025')
 						.text(link_text);
