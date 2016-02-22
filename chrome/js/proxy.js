@@ -47,12 +47,13 @@ var findAddress = function() {
     
 	$('div.gs_r').each(function(index) {
 		var url = prox_addr($(this).find('h3.gs_rt a').attr('href'));
+		var link_text = 'Access via ' + server_name;
 		if(!url) return;
 		
-		var link_a = $('<a class="cslink" alter="Access via UTA">')
+		var link_a = $('<a class="cslink" alter="' + link_text + '">')
 						.attr('href', url)
 						.css('color', '#f58025')
-						.text('Access via ' + server_name);
+						.text(link_text);
 
 		var link_box = $(this).find('div.gs_md_wp.gs_ttss');
 		
