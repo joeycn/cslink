@@ -54,19 +54,19 @@ var findAddress = function() {
 						.attr('href', url)
 						.css('color', '#f58025')
 						.text(link_text);
+    var link_item = $('<div class="gs_ggsd">');
+    var link_container = $('<div class="gs_ggsm"></div>');
+    
+    link_item.append(link_a);
+    link_container.append(link_item);
 
-		var link_box = $(this).find('div.gs_md_wp.gs_ttss');
-		
+		var link_box = $(this).find('div.gs_ggs.gs_fl');
 		if(link_box.length == 0) {
 			link_box = $('<div class="gs_ggs gs_fl"></div>');
-			link_box.append('<div class="gs_md_wp gs_ttss"></div>');
-			link_box.append('<div class="gs_br"></div>');
-			link_box.append(link_a);
+			link_box.append(link_container);
 			$(this).prepend(link_box);
 		} else {
-			
-			link_box.append('<div class="gs_br"></div>');
-			link_box.append(link_a);
+			link_box.append(link_container);
 		}
 		found = true;
 	});
